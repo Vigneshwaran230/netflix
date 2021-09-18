@@ -1,0 +1,197 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-left: 10px;
+  }
+  .netflix {
+    padding-left: 3px;
+    font-family: cursive;
+    color: red;
+    font-size: 20px;
+  }
+  .label {
+    background: black;
+    color: white;
+    margin-right: 5px;
+    font-size: 1.2rem;
+  }
+  .btn {
+    background: red;
+    margin-left: 5px;
+    color: white;
+  }
+  .below {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    /*   background:black; */
+  }
+  .paragraph-below {
+    text-align: center;
+  }
+  .email-class {
+    text-align: center;
+  }
+  .ulimited {
+    font-size: 60px;
+    margin-bottom: 0px;
+  }
+  .para1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+  }
+  .para2 {
+    margin-top: 0px;
+  }
+  .email {
+    width: 20rem;
+    height: 2rem;
+    margin-right: 0px;
+  }
+  .getStart {
+    /*    width:20rem; */
+    height: 2.3rem;
+    margin-left: 0px;
+    background: red;
+    color: white;
+  }
+  .first-session {
+    background-image: url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-blend-mode: saturation;
+    border-bottom: 5px solid grey;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+  }
+  .second {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+    border-bottom: 5px solid grey;
+  }
+  .our-card {
+    width: 250px;
+  }
+  .content2para {
+    text-align: left;
+  }
+  .headsecond2 {
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 2px;
+  }
+  .parasecond2 {
+    font-family: sans-serif;
+    margin-top: 9px;
+    font-size: 15px;
+  }
+  .third {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+    border-bottom: 5px solid grey;
+  }
+  .four {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+    border-bottom: 5px solid grey;
+  }
+  .five {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+    border-bottom: 5px solid grey;
+  }
+  .faq {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: black;
+  }
+  li {
+    list-style: none;
+    padding: 5px;
+  }
+  .question1 {
+    width: 15rem;
+    text-align: left;
+  }
+  .pop{
+    color:white;
+  }
+  .container{
+      height:auto;
+      width:auto;
+  }
+
+  
+  @media (max-width: 450px) {
+    .second {
+      height: auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background: black;
+      color: white;
+      flex-direction: column;
+    }
+    .third {
+      height: auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background: black;
+      color: white;
+      flex-direction: column;
+    }
+    .four {
+      height: auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background: black;
+      color: white;
+      flex-direction: column;
+    }
+    .five {
+      height: auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background: black;
+      color: white;
+      flex-direction: column;
+    }
+    .question1 {
+      max-width: 8rem;
+      text-align: left;
+    }
+  }
+  
